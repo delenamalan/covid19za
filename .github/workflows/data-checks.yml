@@ -8,7 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Show workflow file
-      - script: cat "$GITHUB_EVENT_PATH"
+      shell: bash
+      run: cat "$GITHUB_EVENT_PATH"
     - uses: delenamalan/python@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
