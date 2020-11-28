@@ -1,6 +1,4 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
-asdklj
-asd
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3819126.svg)](https://doi.org/10.5281/zenodo.3819126) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
 
