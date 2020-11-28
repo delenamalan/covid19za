@@ -7,6 +7,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: danger/python@ddd0f980a4052618c49e242b7acfcebaf96ac889
+    - name: Run Danger Python
+      run: \
+        nvm install 10.16.0
+        nvm use 10.16.0
+        yarn global add danger
+        pip install danger-python
+        danger-python ci -v
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
