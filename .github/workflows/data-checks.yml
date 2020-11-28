@@ -7,6 +7,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: danger/python@ddd0f980a4052618c49e242b7acfcebaf96ac889
+    - uses: delenamalan/python@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
